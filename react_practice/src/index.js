@@ -4,6 +4,8 @@ import "./index.css";
 // import App from './App'; vivian commented this out
 import reportWebVitals from "./reportWebVitals";
 
+import IntroMe from "./myPracticeFunctions/IntroMe";
+
 // vivian's functions
 function FirstTry() {
   return (
@@ -47,7 +49,7 @@ ReactDOM.render(
       <FirstTry />
       <ColourList />
       <SongPara />
-      {/* <IntroMe /> */}
+      <IntroMe />
     </div>
   </React.StrictMode>,
   document.getElementById("root")
