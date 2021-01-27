@@ -40,26 +40,6 @@ function SongPara() {
   );
 }
 
-function IntroMe() {
-  return (
-    <div>
-      <h2
-        style={{
-          backgroundColor: "pink",
-          width: "4em",
-          fontFamily: "Times New Roman serif",
-        }}
-      >
-        Vivian
-      </h2>
-      <p>
-        My name is Vivian. I am 26 years old. I like to eat pizza. My favourite
-        colour is <span style={{ color: "green" }}> green</span>.
-      </p>
-    </div>
-  );
-}
-
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> vivian commented this bit out */}
@@ -67,7 +47,7 @@ ReactDOM.render(
       <FirstTry />
       <ColourList />
       <SongPara />
-      <IntroMe />
+      {/* <IntroMe /> */}
     </div>
   </React.StrictMode>,
   document.getElementById("root")
