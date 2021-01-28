@@ -4,6 +4,7 @@ function VivIntro() {
   return (
     <div>
       <h2>Who is Vivian?</h2>
+      
       <p>
         Vivian is a Leeds Beckett University Graduate with a{" "}
         <span style={{ textDecoration: "underline" }}>Diploma</span> in Software
