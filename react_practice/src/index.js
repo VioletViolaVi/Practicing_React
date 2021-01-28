@@ -5,8 +5,10 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import VivGoals from "./AboutMe/VivGoals";
+import VivVacations from "./AboutMe/VivVacations";
 
 // vivian's functions
+
 function WebTitle() {
   return (
     <div>
@@ -78,6 +80,7 @@ ReactDOM.render(
       <Intro />
       <FavColours />
       <FaveSongLyrics />
+      <VivVacations/>
       <VivGoals />
     </div>
   </React.StrictMode>,
