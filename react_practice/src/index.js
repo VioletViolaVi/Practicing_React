@@ -5,7 +5,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import Navbar from "./MainWebParts/Navbar";
-import MiddleContent from "./MainWebParts/MiddleContent";
+import MiddleSection from "./MainWebParts/MiddleSection";
 import Footer from "./MainWebParts/Footer";
 
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
     {/* <App /> vivian commented this bit out */}
     <div>
       <Navbar />
-      <MiddleContent />
+      <MiddleSection />
       <Footer />
     </div>
   </React.StrictMode>,

@@ -7,10 +7,10 @@ import VivFavSong from "../AboutMe/VivFavSong";
 import VivVacations from "../AboutMe/VivVacations";
 import VivGoals from "../AboutMe/VivGoals";
 
-function MiddleContent() {
+function MiddleSection() {
   return (
     <div>
-      <section>Down below are all the middle section</section>
+      <section>Down below is all the middle section</section>
       <VivTitle />
       <VivIntro />
       <VivFavColours />
@@ -21,4 +21,4 @@ function MiddleContent() {
   );
 }
 
-export default MiddleContent;
+export default MiddleSection;
