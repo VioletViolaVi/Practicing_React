@@ -4,23 +4,17 @@ import "./index.css";
 // import App from './App'; vivian commented this out
 import reportWebVitals from "./reportWebVitals";
 
-import VivTitle from "./AboutMe/VivTitle";
-import VivIntro from "./AboutMe/VivIntro";
-import VivFavColours from "./AboutMe/VivFavColours";
-import VivFavSong from "./AboutMe/VivFavSong";
-import VivVacations from "./AboutMe/VivVacations";
-import VivGoals from "./AboutMe/VivGoals";
+import Navbar from "./MainWebParts/Navbar";
+import MiddleContent from "./MainWebParts/MiddleContent";
+import Footer from "./MainWebParts/Footer";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> vivian commented this bit out */}
     <div>
-      <VivTitle />
-      <VivIntro />
-      <VivFavColours />
-      <VivFavSong />
-      <VivVacations />
-      <VivGoals />
+      <Navbar />
+      <MiddleContent />
+      <Footer />
     </div>
   </React.StrictMode>,
   document.getElementById("root")
