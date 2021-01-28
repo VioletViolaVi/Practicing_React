@@ -1,0 +1,28 @@
+$nav-bar: pink;
+$navBar: (
+  "bulletPoints": none,
+  "display": inline,
+  "textAlign": center,
+  "paddingTop": 1em,
+  "height": 3.5em,
+  "colour": black,
+);
+
+.nav-bar {
+  background-color: $nav-bar;
+  text-align: map-get($navBar, "textAlign");
+  height: map-get($navBar, "height");
+}
+
+.nav-bar ul {
+  padding-top: map-get($navBar, "paddingTop");
+}
+
+.nav-bar li {
+  list-style: map-get($navBar, "bulletPoints");
+  display: map-get($navBar, "display");
+}
+
+.nav-bar li a {
+  color: map-get($navBar, "colour");
+}
