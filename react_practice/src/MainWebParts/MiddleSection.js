@@ -1,18 +1,17 @@
 import React from "react";
 
-import VivTitle from "../AboutMe/VivTitle";
-import VivIntro from "../AboutMe/VivIntro";
-import VivFavColours from "../AboutMe/VivFavColours";
-import VivFavSong from "../AboutMe/VivFavSong";
-import VivVacations from "../AboutMe/VivVacations";
-import VivGoals from "../AboutMe/VivGoals";
-import VivToDoList from "../AboutMe/VivToDoList";
+import VivTitle from "../MiddleSection/VivTitle";
+import VivIntro from "../MiddleSection/VivIntro";
+import VivFavColours from "../MiddleSection/VivFavColours";
+import VivFavSong from "../MiddleSection/VivFavSong";
+import VivVacations from "../MiddleSection/VivVacations";
+import VivGoals from "../MiddleSection/VivGoals";
+import VivToDoList from "../MiddleSection/VivToDoList";
 
 function MiddleSection() {
   return (
     <div>
       <section>
-        Down below is all the middle section
         <VivTitle />
         <VivIntro />
         <VivFavColours />

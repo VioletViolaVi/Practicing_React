@@ -1,3 +1,4 @@
+/********************************************************* navbar*/
 $nav-bar: pink;
 $navBar: (
   "bulletPoints": none,
@@ -5,6 +6,8 @@ $navBar: (
   "textAlign": center,
   "paddingTop": 1em,
   "height": 3.5em,
+  "fontSize": 1.3em,
+  "fontWeight": bold,
   "colour": black,
 );
 
@@ -12,6 +15,8 @@ $navBar: (
   background-color: $nav-bar;
   text-align: map-get($navBar, "textAlign");
   height: map-get($navBar, "height");
+  font-size: map-get($navBar, "fontSize");
+  font-weight: map-get($navBar, "fontWeight");
 }
 
 .nav-bar ul {
@@ -26,3 +31,5 @@ $navBar: (
 .nav-bar li a {
   color: map-get($navBar, "colour");
 }
+
+/********************************************************* # */

@@ -1,0 +1,24 @@
+/********************************************************* navbar*/
+.nav-bar {
+  background-color: pink;
+  text-align: center;
+  height: 3.5em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.nav-bar ul {
+  padding-top: 1em;
+}
+
+.nav-bar li {
+  list-style: none;
+  display: inline;
+}
+
+.nav-bar li a {
+  color: black;
+}
+
+/********************************************************* # */
+/*# sourceMappingURL=Style.css.map */

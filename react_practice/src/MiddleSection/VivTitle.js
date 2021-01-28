@@ -6,6 +6,7 @@ function VivTitle() {
       style={{
         fontStyle: "italic",
         textAlign: "center",
+        fontSize: "3em", 
       }}
     >
       Vivian
