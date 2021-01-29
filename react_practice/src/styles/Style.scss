@@ -1,4 +1,11 @@
-/********************************************************* navbar*/
+/********************************************************* sections commonality */
+$sectionMargins: 1em;
+
+.viv-section {
+  margin: $sectionMargins;
+}
+
+/********************************************************* navbar */
 $nav-bar: pink;
 $navBar: (
   "bulletPoints": none,
@@ -17,19 +24,79 @@ $navBar: (
   height: map-get($navBar, "height");
   font-size: map-get($navBar, "fontSize");
   font-weight: map-get($navBar, "fontWeight");
+
+  ul {
+    padding-top: map-get($navBar, "paddingTop");
+  }
+
+  li {
+    list-style: map-get($navBar, "bulletPoints");
+    display: map-get($navBar, "display");
+
+    a {
+      color: map-get($navBar, "colour");
+    }
+  }
 }
 
-.nav-bar ul {
-  padding-top: map-get($navBar, "paddingTop");
+/********************************************************* VivFavColours */
+$centerList: center;
+$boldColour: bold;
+$removeBulletPoints: none;
+
+.fav-colour-list {
+  text-align: $centerList;
+  list-style-type: $removeBulletPoints;
+
+  li {
+    font-weight: $boldColour;
+  }
 }
 
-.nav-bar li {
-  list-style: map-get($navBar, "bulletPoints");
-  display: map-get($navBar, "display");
+/********************************************************* VivVacation */
+$holidayPlaces: (
+  "marginLeft": 5em,
+  "bold": bold,
+  "size": 1.5em,
+  "colour": gold,
+);
+
+.viv-vacation-spots {
+  margin-left: map-get($holidayPlaces, "marginLeft");
+
+  li {
+    font-weight: map-get($holidayPlaces, "bold");
+    font-size: map-get($holidayPlaces, "size");
+    color: map-get($holidayPlaces, "colour");
+  }
 }
 
-.nav-bar li a {
-  color: map-get($navBar, "colour");
+/********************************************************* VivGoals */
+$frontBackEnd: (
+  "colour": lightblue,
+  "bgColour": green,
+  "italic": italic,
+  "bold": bold,
+);
+
+.front-and-back-end {
+  color: map-get($frontBackEnd, "colour");
+  background-color: map-get($frontBackEnd, "bgColour");
+  font-style: map-get($frontBackEnd, "italic");
+  font-weight: map-get($frontBackEnd, "bold");
 }
 
-/********************************************************* # */
+/********************************************************* footer */
+$bgColour: pink;
+$centerFooter: center;
+$height: 3em;
+$paddingTop: 1.5em;
+$boldText: bold;
+
+.viv-footer {
+  background-color: $bgColour;
+  text-align: $centerFooter;
+  height: $height;
+  padding-top: $paddingTop;
+  font-weight: $boldText;
+}

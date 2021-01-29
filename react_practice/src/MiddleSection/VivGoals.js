@@ -2,21 +2,22 @@ import React from "react";
 
 function VivGoals() {
   return (
-    <div>
-      <h2
-        style={{
-          backgroundColor: "pink",
-          width: "7em",
-          fontFamily: "Times New Roman serif",
-        }}
-      >
-        Vivian's Goals
-      </h2>
+    <div className="viv-section">
+      <h2>Vivian's Goals</h2>
       <p>
-        Vivian's goals include becoming a Full Stack Web Developer who is highly
-        knowledgeable in a range of both{" "}
-        <span style={{ color: "purple" }}>Front End</span> and{" "}
-        <span style={{ color: "purple" }}>Back End</span> technologies. She
+        Vivian's goals include becoming a{" "}
+        <span
+          style={{
+            backgroundColor: "purple",
+            width: "7em",
+            fontFamily: "Times New Roman serif",
+          }}
+        >
+          Full Stack Web Developer
+        </span>{" "}
+        who is highly knowledgeable in a range of both{" "}
+        <span className="front-and-back-end">Front End</span> and{" "}
+        <span className="front-and-back-end">Back End</span> technologies. She
         hopes to be able to create a range of ecommerce and gaming websites that
         the entire global internet community will be able to enjoy and
         participate in.

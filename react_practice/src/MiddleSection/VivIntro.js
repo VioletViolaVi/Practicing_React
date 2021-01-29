@@ -2,7 +2,7 @@ import React from "react";
 
 function VivIntro() {
   return (
-    <div>
+    <div className="viv-section">
       <h2>Who is Vivian?</h2>
       
       <p>

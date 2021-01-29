@@ -1,10 +1,10 @@
 import React from "react";
 
-import VivSongDisclosure from "./VivSongDisclosure"
+import VivSongDisclosure from "./VivSongDisclosure";
 
 function VivFavSong() {
   return (
-    <div>
+    <div className="viv-section">
       <h2>Vivian's favourite song goes like this:</h2>
       <p
         style={{
@@ -15,7 +15,7 @@ function VivFavSong() {
         John Little, Little John. What a crying shame they named him wrong.
         'Cause he turned out mighty, big and strong! Great, big, Little John.
       </p>
-      <VivSongDisclosure/>
+      <VivSongDisclosure />
     </div>
   );
 }

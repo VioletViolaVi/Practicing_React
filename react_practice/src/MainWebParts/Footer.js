@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <br/>
-      <footer>This is the footer</footer>
+      <footer className="viv-footer">Copyright vivian@vivian 2021</footer>
     </div>
   );
 }

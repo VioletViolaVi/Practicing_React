@@ -1,4 +1,9 @@
-/********************************************************* navbar*/
+/********************************************************* sections commonality */
+.viv-section {
+  margin: 1em;
+}
+
+/********************************************************* navbar */
 .nav-bar {
   background-color: pink;
   text-align: center;
@@ -20,5 +25,41 @@
   color: black;
 }
 
-/********************************************************* # */
+/********************************************************* VivFavColours */
+.fav-colour-list {
+  text-align: center;
+  list-style-type: none;
+}
+
+.fav-colour-list li {
+  font-weight: bold;
+}
+
+/********************************************************* VivVacation */
+.viv-vacation-spots {
+  margin-left: 5em;
+}
+
+.viv-vacation-spots li {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: gold;
+}
+
+/********************************************************* VivGoals */
+.front-and-back-end {
+  color: lightblue;
+  background-color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/********************************************************* footer */
+.viv-footer {
+  background-color: pink;
+  text-align: center;
+  height: 3em;
+  padding-top: 1.5em;
+  font-weight: bold;
+}
 /*# sourceMappingURL=Style.css.map */
