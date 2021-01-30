@@ -7,6 +7,7 @@ import VivFavSong from "../MiddleSection/VivFavSong";
 import VivVacations from "../MiddleSection/VivVacations";
 import VivGoals from "../MiddleSection/VivGoals";
 import VivToDoList from "../MiddleSection/VivToDoList";
+import VivFood from "../MiddleSection/VivFood";
 
 function MiddleSection() {
   return (
@@ -19,6 +20,7 @@ function MiddleSection() {
         <VivVacations />
         <VivGoals />
         <VivToDoList />
+        <VivFood />
       </section>
     </div>
   );

@@ -1,11 +1,16 @@
 import React from "react";
 
 function VivFavColours() {
+
+  const redStyle = { 
+    color: "red", 
+  }; 
+
   return (
     <div className="viv-section">
       <h2>Vivian's favourite colours are the following:</h2>
       <ul className="fav-colour-list">
-        <li style={{ color: "red" }}>Red</li>
+        <li style={ redStyle }>Red</li>
         <li style={{ color: "green" }}>Green</li>
         <li style={{ color: "yellow" }}>Yellow</li>
         <li style={{ color: "pink" }}>Pink</li>
